@@ -1,5 +1,5 @@
 FROM thomasrobinson/centos7-netcdff:4.5.3-c4.7.4-gcc-mpich
-
+## Dockerfile used to create thomasrobinson/single-point:1.0-gcc10
 RUN yum -y install zip
 RUN yum -y install unzip
 RUN yum -y install wget
